@@ -1,4 +1,5 @@
-# Pokédex
+ # ![Ícone](https://imgur.com/rjbsVn5.png) Pokédex
+
 
 Este é um exemplo visual de uma Pokédex com os 10 primeiros Pokémon da primeira geração. Cada card mostra o nome, número, tipos e uma imagem representativa de cada Pokémon.
 ---
