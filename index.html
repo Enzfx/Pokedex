@@ -20,23 +20,13 @@
 <section>
     <h1>Pokedex</h1>
 
-<ol id="pokemonList" class="pokemons">
-    <li class="pokemon">
-        <span class="number">#0001</span>
-        <span class="name">Bulbasaur</span>
-
-        <div class="detail">
-            <ol class="types">
-                <li class="type">Grass</li>
-                <li class="type">Poison</li>
-            </ol>
-
-             <img src="https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/1.svg"
-             alt="Bulbasaur">
-        </div>
-    </li>
+<ol id="pokemonList" class="pokemons"></ol>
     <!-- Lista dos Pokémons Aqui -->
 </ol>
+    <div class="pagination">
+        <button id="loadMoreButton">Load More</button>
+    </div>
+
 </section>
     <script src="assets/js/pokemon-model.js"></script>
     <script src="assets/js/poke-api.js"></script>
