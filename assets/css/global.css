@@ -6,6 +6,18 @@
 body {
     background-color: #f6f8fc;
 }
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 1rem 0;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 
 .content {
     width: 100vw;
