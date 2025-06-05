@@ -1,16 +1,15 @@
 function convertPokemonToLi(pokemon) {
     return `
-    <li class="pokemon">
-        <span class="number">#0001</span>
+    <li class="pokemon ${pokemon.type}">
+        <span class="number">#${pokemon.number}</span>
         <span class="name">${pokemon.name}</span>
 
         <div class="detail">
             <ol class="types">
-                <li class="type">Grass</li>
-                <li class="type">Poison</li>
+             ${pokemon.types.map((type) => `<li class="type ${type.toLowerCase()}">${type}</li>`).join('')}
             </ol>
 
-             <img src="https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/1.svg"
+             <img src="${pokemon.photo}"
              alt="${pokemon.name}">
         </div>
     </li>
